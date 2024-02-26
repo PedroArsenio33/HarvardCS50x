@@ -1,0 +1,7 @@
+Assign a value of danceability, valence and energy for each aura.
+Find those 3 averages for the given dataset.
+Compute the absolute difference between them and each of the auras values.
+The result would be the aura/s with the smallest deviation from the values defined at the beginning.
+
+A user might have listened to one song in particular much more than others and that would skew our results.
+We could use a weighted average to take this into account, giving a bigger weight to the most listened to songs.
